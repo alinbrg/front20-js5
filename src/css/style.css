@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+section {
+	max-width: 1440px;
+	width: 98%;
+	margin: 20px auto;
+}
+button {
+	padding: 10px;
+	margin: 10px 0;
+	border: none;
+	background-color: lightcoral;
+}
+
+.green {
+	background-color: green;
+}
+
+.red {
+	background-color: red;
+}
+.currencies {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
